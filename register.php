@@ -16,17 +16,16 @@ if ($_SESSION['user']) {
 
 <body>
     <form>
+        <label>ФИО</label>
+        <input type="text" name="name" placeholder="Введите свое имя">
         <label>Логин</label>
         <input type="text" name="login" placeholder="Введите свой логин">
+        <label>Телефон</label>
+        <input type="phone" name="phone" placeholder="Введите телефон">
         <label>Пароль</label>
         <input type="password" name="password" placeholder="Введите пароль">
         <label>Подтверждение пароля</label>
         <input type="password" name="password_confirm" placeholder="Подтвердите пароль">
-        <label>Как к вам обращаться?</label>
-        <input type="text" name="name" placeholder="Введите свое имя">
-        <label>Телефон</label>
-        <input type="phone" name="phone" placeholder="Введите номер телефона">
-
         <button type="submit" class="register-btn">Зарегистрироваться</button>
         <p>
             У вас уже есть аккаунт? - <a href="/">авторизируйтесь</a>!

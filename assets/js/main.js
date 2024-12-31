@@ -45,22 +45,17 @@ $('.register-btn').click(function (e) {
         phone = $('input[name="phone"]').val(),
         password_confirm = $('input[name="password_confirm"]').val();
 
-    let formData = new FormData();
-    formData.append('login', login);
-    formData.append('password', password);
-    formData.append('password_confirm', password_confirm);
-    formData.append('name', name);
-    formData.append('phone', phone);
-
-
     $.ajax({
         url: 'vendor/signup.php',
         type: 'POST',
         dataType: 'json',
-        processData: false,
-        contentType: false,
-        cache: false,
-        data: formData,
+        data: {
+            login: login,
+            password: password,
+            password_confirm: password_confirm,
+            name: name,
+            phone: phone
+        },
         success(data) {
 
             if (data.status) {

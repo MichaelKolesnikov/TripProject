@@ -36,6 +36,10 @@ if ($name === '') {
     $error_fields[] = 'name';
 }
 
+if ($phone === '') {
+    $error_fields[] = 'phone';
+}
+
 if ($password_confirm === '') {
     $error_fields[] = 'password_confirm';
 }

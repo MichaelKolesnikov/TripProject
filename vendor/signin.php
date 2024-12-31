@@ -39,8 +39,7 @@ if (mysqli_num_rows($check_user) > 0) {
     $_SESSION['user'] = [
         "id" => $user['id'],
         "name" => $user['name'],
-        "phone" => $user['phone'],
-        "login" => $user["login"]
+        "phone" => $user['phone']
     ];
 
     $response = [

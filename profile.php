@@ -16,6 +16,7 @@ if (!$_SESSION['user']) {
 
 <body>
     <form>
+        <img src="<?= $_SESSION['user']['avatar'] ?>" width="200" alt="">
         <h2 style="margin: 10px 0;"><?= $_SESSION['user']['name'] ?></h2>
         <a href="#"><?= $_SESSION['user']['phone'] ?></a>
         <a href="vendor/logout.php" class="logout">Выход</a>
