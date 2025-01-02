@@ -45,12 +45,11 @@ if (!$_SESSION['user']) {
                 if (mysqli_num_rows($result) > 0) {
                     echo "<h2>Список клиентов, у которых уже есть поездка:</h2>";
                     echo "<table border='1'>";
-                    echo "<tr><th>ID</th><th>Имя</th><th>Телефон</th><th>Детали поездки</th><th>Действие</th></tr>";
+                    echo "<tr><th>ID</th><th>Имя</th><th>Телефон</th><th>Требуется ли изменение?</th></tr>";
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
                         echo "<td>" . $row['id'] . "</td>";
-                        echo "<td>" . $row['name'] . "</td>";
                         echo "<td>" . $row['name'] . "</td>";
                         echo "<td>" . $row['phone'] . "</td>";
                         echo "<td><a href='edit_client.php?id=" . $row['id'] . "'><button>Редактировать</button></a></td>";
@@ -59,7 +58,7 @@ if (!$_SESSION['user']) {
 
                     echo "</table>";
                 } else {
-                    echo "Нет клиентов с поездками.";
+                    echo "Нет клиентов с поездками";
                 }
 
 
@@ -69,12 +68,11 @@ if (!$_SESSION['user']) {
                 if (mysqli_num_rows($result) > 0) {
                     echo "<h2>Список клиентов, у которых нет поездки:</h2>";
                     echo "<table border='1'>";
-                    echo "<tr><th>ID</th><th>Имя</th><th>Телефон</th><th>Детали поездки</th><th>Действие</th></tr>";
+                    echo "<tr><th>ID</th><th>Имя</th><th>Телефон</th><th>Действие</th></tr>";
 
                     while ($row = mysqli_fetch_assoc($result)) {
                         echo "<tr>";
                         echo "<td>" . $row['id'] . "</td>";
-                        echo "<td>" . $row['name'] . "</td>";
                         echo "<td>" . $row['name'] . "</td>";
                         echo "<td>" . $row['phone'] . "</td>";
                         echo "<td><a href='create_trip.php?id=" . $row['id'] . "'><button>Добавить поездку</button></a></td>";
@@ -83,7 +81,7 @@ if (!$_SESSION['user']) {
 
                     echo "</table>";
                 } else {
-                    echo "Нет клиентов с поездками.";
+                    echo "Нет клиентов без поездок";
                 }
             }
             ?>

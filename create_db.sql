@@ -30,22 +30,22 @@ CREATE TABLE IF NOT EXISTS `Trip` (
     id INT PRIMARY KEY,
     `start_date` DATE NOT NULL DEFAULT CURRENT_DATE,
     end_date DATE NOT NULL DEFAULT CURRENT_DATE,
-    `description` TEXT DEFAULT 'Описание',
-    need_visa BOOLEAN DEFAULT FALSE,
-    need_transfer BOOLEAN DEFAULT FALSE,
-    need_culture_program BOOLEAN DEFAULT FALSE,
+    `description` TEXT NOT NULL DEFAULT 'Description',
+    need_visa BOOLEAN NOT NULL DEFAULT FALSE,
+    need_transfer BOOLEAN NOT NULL DEFAULT FALSE,
+    need_culture_program BOOLEAN NOT NULL DEFAULT FALSE,
     cancelled BOOLEAN NOT NULL DEFAULT FALSE,
     cost DECIMAL(10, 2) NOT NULL DEFAULT 0,
-    hotel_id INT DEFAULT 1,
+    hotel_id INT NOT NULL DEFAULT 1,
     FOREIGN KEY (id) REFERENCES `User`(id),
     FOREIGN KEY (hotel_id) REFERENCES `Hotel`(id)
 );
 
 CREATE TABLE IF NOT EXISTS `Change` (
-    id INT PRIMARY KEY,
+    id INT PRIMARY KEY AUTO_INCREMENT,
     trip_id INT NOT NULL,
-    manager_id INT,
-    `description` TEXT,
+    manager_id INT DEFAULT NULL,
+    `description` TEXT DEFAULT "Description",
     done BOOLEAN DEFAULT FALSE,
     FOREIGN KEY (manager_id) REFERENCES `User`(id),
     FOREIGN KEY (trip_id) REFERENCES `Trip`(id)
