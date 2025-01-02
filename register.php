@@ -11,11 +11,11 @@ if ($_SESSION['user']) {
 <head>
     <meta charset="UTF-8">
     <title>Авторизация и регистрация</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/index_register.css">
 </head>
 
 <body>
-    <form>
+    <form class="registration">
         <label>ФИО</label>
         <input type="text" name="name" placeholder="Введите свое имя">
         <label>Логин</label>

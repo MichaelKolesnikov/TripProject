@@ -13,11 +13,11 @@ if ($_SESSION['user']) {
 <head>
     <meta charset="UTF-8">
     <title>Авторизация и регистрация</title>
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/index_register.css">
 </head>
 
 <body>
-    <form>
+    <form class="login">
         <label>Логин</label>
         <input type="text" name="login" placeholder="Введите свой логин">
         <label>Пароль</label>

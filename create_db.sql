@@ -14,6 +14,7 @@ CREATE TABLE IF NOT EXISTS `Hotel` (
     city VARCHAR(255) NOT NULL,
     street VARCHAR(255) NOT NULL
 );
+INSERT INTO `Hotel` (id, name, country, city, street) VALUES (1, 'Главный отель', 'Россия', 'Москва', 'Москворечье');
 
 CREATE TABLE IF NOT EXISTS `User` (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -27,15 +28,15 @@ CREATE TABLE IF NOT EXISTS `User` (
 
 CREATE TABLE IF NOT EXISTS `Trip` (
     id INT PRIMARY KEY,
-    `start_date` DATE NOT NULL,
-    end_date DATE NOT NULL,
-    `description` TEXT,
+    `start_date` DATE NOT NULL DEFAULT CURRENT_DATE,
+    end_date DATE NOT NULL DEFAULT CURRENT_DATE,
+    `description` TEXT DEFAULT 'Описание',
     need_visa BOOLEAN DEFAULT FALSE,
     need_transfer BOOLEAN DEFAULT FALSE,
     need_culture_program BOOLEAN DEFAULT FALSE,
-    `status` VARCHAR(50) NOT NULL,
-    cost DECIMAL(10, 2) NOT NULL,
-    hotel_id INT,
+    cancelled BOOLEAN NOT NULL DEFAULT FALSE,
+    cost DECIMAL(10, 2) NOT NULL DEFAULT 0,
+    hotel_id INT DEFAULT 1,
     FOREIGN KEY (id) REFERENCES `User`(id),
     FOREIGN KEY (hotel_id) REFERENCES `Hotel`(id)
 );
