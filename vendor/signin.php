@@ -41,7 +41,7 @@ if (mysqli_num_rows($check_user) > 0) {
         "login" => $user["login"],
         "name" => $user['name'],
         "phone" => $user['phone'],
-        "role_id" => $user["role_id"]
+        "role_id" => $user["role_id"],
     ];
 
     $response = [

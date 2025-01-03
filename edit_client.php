@@ -52,7 +52,8 @@ try {
     <div>
         <p>Логин: <?php echo htmlspecialchars($row['login']); ?></p>
         <p>Имя: <?php echo htmlspecialchars($row['name']); ?></p>
-        <p>Ваш телефон: <?php echo htmlspecialchars($row['phone']); ?></p>
+        <p>Телефон: <?php echo htmlspecialchars($row['phone']); ?></p>
+        <p>Описание желаемого изменения: <?php echo htmlspecialchars($change_row['description']); ?></p>
     </div>
 
     <h1>Данные поездки для редактирования</h1>

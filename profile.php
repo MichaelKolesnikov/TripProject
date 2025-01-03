@@ -31,12 +31,34 @@ if (!$_SESSION['user']) {
             <?php
             if ($_SESSION['user']['role_id'] == 1) {
                 $user_id = $_SESSION['user']['id'];
-                $query = "SELECT * FROM Trip WHERE Trip.id='$user_id'";
+                $query = "SELECT Trip.*, Hotel.name, Hotel.country, Hotel.city, Hotel.street FROM Trip JOIN Hotel ON hotel_id=Hotel.id WHERE Trip.id='$user_id'";
                 $result = mysqli_query($connect, $query);
                 if (mysqli_num_rows($result) == 0) {
                     echo "Вы еще не зарегистрировали поездку. Позвоните по данному номеру телефона: +7(888)-888-88-88, чтобы обговорить желаемую поездку. После через некоторое время вы сможете ее увидеть в своем личном кабинете.";
                 } else {
                     echo "Информация о Вашей поездке:";
+                    $row = mysqli_fetch_assoc($result);
+                    echo "<p>ID поездки: " . $row['id'] . "</p>";
+                    echo "<p>Дата начала: " . $row['start_date'] . "</p>";
+                    echo "<p>Дата окончания: " . $row['end_date'] . "</p>";
+                    echo "<p>Описание: " . $row['description'] . "</p>";
+                    echo "<p>Необходимость визы: " . ($row['need_visa'] ? 'Да' : 'Нет') . "</p>";
+                    echo "<p>Необходимость трансфера: " . ($row['need_transfer'] ? 'Да' : 'Нет') . "</p>";
+                    echo "<p>Необходимость культурной программы: " . ($row['need_culture_program'] ? 'Да' : 'Нет') . "</p>";
+                    echo "<p>Отменена: " . ($row['cancelled'] ? 'Да' : 'Нет') . "</p>";
+                    echo "<p>Стоимость: " . $row['cost'] . "</p>";
+                    echo "<p>Отель: " . $row['name'] . " (Страна: " . $row['country'] . ", Город: " . $row['city'] . ", Улица: " . $row['street'] . ")</p>";
+
+                    echo "Поездка может иметь только одно несделанное изменение";
+                    $query = "SELECT * FROM `Change` WHERE trip_id='$user_id' AND done=false;";
+                    if (mysqli_num_rows(mysqli_query($connect, $query)) == 0) {
+                        echo "<h3>Добавить запись о изменении поездки:</h3>";
+                        echo "<form method='POST' action='add_change.php'>";
+                        echo "<input type='hidden' name='trip_id' value='" . $row['id'] . "'>";
+                        echo "<textarea name='description' placeholder='Введите описание изменения' required></textarea><br>";
+                        echo "<button type='submit'>Добавить запись</button>";
+                        echo "</form>";
+                    }
                 }
             } else {
                 $query = "
