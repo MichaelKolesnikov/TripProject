@@ -50,3 +50,16 @@ CREATE TABLE IF NOT EXISTS `Change` (
     FOREIGN KEY (manager_id) REFERENCES `User`(id),
     FOREIGN KEY (trip_id) REFERENCES `Trip`(id)
 );
+
+DELIMITER $$
+
+CREATE TRIGGER after_trip_insert
+AFTER INSERT ON `Trip`
+FOR EACH ROW
+BEGIN
+    -- Вставляем запись в таблицу Change с trip_id и description
+    INSERT INTO `Change` (trip_id, description)
+    VALUES (NEW.id, 'Автоматически созданное изменение');
+END$$
+
+DELIMITER ;

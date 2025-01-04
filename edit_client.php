@@ -7,10 +7,19 @@ $clientId = $_GET['id'];
 mysqli_begin_transaction($connect);
 
 try {
-    $stmt = $connect->prepare("SELECT * FROM `Change` WHERE `trip_id` = ? AND NOT `done` FOR UPDATE");
+    $stmt = $connect->prepare("SELECT * FROM `Change` WHERE `trip_id` = ? AND `done` = false FOR UPDATE");
     $stmt->bind_param("i", $clientId);
     $stmt->execute();
-    $change_row = $stmt->get_result()->fetch_assoc();
+
+    $result = $stmt->get_result();
+
+    if ($result->num_rows == 0) {
+        mysqli_rollback($connect);
+        echo "Изменение уже было применено или поездки уже не существует";
+        exit();
+    }
+
+    $change_row = $result->fetch_assoc();
     $change_id = $change_row["id"];
 
     $manager_id = $_SESSION['user']['id'];
@@ -35,6 +44,7 @@ try {
 } catch (Exception $e) {
     mysqli_rollback($connect);
     echo "Ошибка: " . $e->getMessage();
+    exit();
 }
 // COMMIT and ROLLBACK automatically release locks acquired by FOR UPDATE.
 ?>
@@ -45,6 +55,41 @@ try {
 <head>
     <meta charset="UTF-8">
     <title>Редактирование клиента</title>
+    <script>
+        let inactivityTime = function () {
+            let time;
+            window.onload = resetTimer;
+            document.onmousemove = resetTimer;
+            document.onkeypress = resetTimer;
+
+            function logout() {
+                // Отправляем AJAX запрос для обновления поля manager_id
+                fetch('time_out_handler.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ change_id: <?php echo $change_id; ?> })
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            window.location.href = 'profile.php';
+                        } else {
+                            console.error('Ошибка при обновлении manager_id');
+                        }
+                    })
+                    .catch(error => console.error('Ошибка:', error));
+            }
+
+            function resetTimer() {
+                clearTimeout(time);
+                time = setTimeout(logout, 1 * 60 * 1000); // 1 минута
+            }
+        };
+
+        inactivityTime();
+    </script>
 </head>
 
 <body>

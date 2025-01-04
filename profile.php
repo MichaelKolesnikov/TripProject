@@ -62,20 +62,22 @@ if (!$_SESSION['user']) {
                 }
             } else {
                 $query = "
-    SELECT 
-        User.id, 
-        User.login, 
-        User.name, 
-        User.phone, 
-        `Change`.done 
-    FROM 
-        User 
-    INNER JOIN 
-        Trip ON User.id = Trip.id 
-    LEFT JOIN 
-        `Change` ON `Change`.`trip_id` = `Trip`.`id` 
-    WHERE 
-        User.role_id = 1
+SELECT 
+    User.id, 
+    User.login, 
+    User.name, 
+    User.phone, 
+    MAX(`Change`.done = false) AS has_not_done_change
+FROM 
+    User 
+INNER JOIN 
+    Trip ON User.id = Trip.id 
+LEFT JOIN 
+    `Change` ON `Change`.`trip_id` = `Trip`.`id` 
+WHERE 
+    User.role_id = 1
+GROUP BY 
+    User.id, User.login, User.name, User.phone;
 ";
                 $result = mysqli_query($connect, $query);
 
@@ -86,10 +88,10 @@ if (!$_SESSION['user']) {
 
                     // Разделение клиентов на две группы
                     while ($row = mysqli_fetch_assoc($result)) {
-                        if ($row['done'] == true) {
-                            $clientsWithoutChanges[] = $row;
-                        } else {
+                        if ($row['has_not_done_change'] == true) {
                             $clientsWithChanges[] = $row;
+                        } else {
+                            $clientsWithoutChanges[] = $row;
                         }
                     }
 
