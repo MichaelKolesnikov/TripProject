@@ -2,7 +2,6 @@ CREATE TABLE IF NOT EXISTS `Role` (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(255) NOT NULL UNIQUE
 );
-
 INSERT INTO `Role` (id, name) VALUES
 (1, 'user'),
 (2, 'manager');
@@ -14,7 +13,8 @@ CREATE TABLE IF NOT EXISTS `Hotel` (
     city VARCHAR(255) NOT NULL,
     street VARCHAR(255) NOT NULL
 );
-INSERT INTO `Hotel` (id, name, country, city, street) VALUES (1, 'Главный отель', 'Россия', 'Москва', 'Москворечье');
+INSERT INTO `Hotel` (id, name, country, city, street) VALUES 
+(1, 'Главный отель', 'Россия', 'Москва', 'Москворечье');
 
 CREATE TABLE IF NOT EXISTS `User` (
     id INT PRIMARY KEY AUTO_INCREMENT,
@@ -52,14 +52,11 @@ CREATE TABLE IF NOT EXISTS `Change` (
 );
 
 DELIMITER $$
-
 CREATE TRIGGER after_trip_insert
 AFTER INSERT ON `Trip`
 FOR EACH ROW
 BEGIN
-    -- Вставляем запись в таблицу Change с trip_id и description
     INSERT INTO `Change` (trip_id, description)
     VALUES (NEW.id, 'Автоматически созданное изменение');
 END$$
-
 DELIMITER ;
