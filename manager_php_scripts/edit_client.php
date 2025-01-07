@@ -1,6 +1,12 @@
 <?php
 session_start();
-require_once "vendor/connect.php";
+if (!$_SESSION['user']) {
+    header('Location: /');
+}
+if ($_SESSION['user']['role_id'] == 1) {
+    header('Location: /');
+}
+require_once "../vendor/connect.php";
 
 $clientId = $_GET['id'];
 
@@ -56,106 +62,7 @@ try {
     <meta charset="UTF-8">
     <title>Редактирование клиента</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #007BFF;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        .client-info,
-        .trip-info {
-            margin-bottom: 20px;
-        }
-
-        .client-info h2,
-        .trip-info h2 {
-            margin-top: 0;
-            color: #007BFF;
-        }
-
-        .client-info p,
-        .trip-info p {
-            margin: 10px 0;
-        }
-
-        form label {
-            display: block;
-            margin: 10px 0 5px;
-            font-weight: bold;
-        }
-
-        form input[type="date"],
-        form input[type="number"],
-        form textarea,
-        form select {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            font-size: 16px;
-        }
-
-        form textarea {
-            resize: vertical;
-            height: 100px;
-        }
-
-        form button {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-        }
-
-        form button:hover {
-            background-color: #218838;
-        }
-
-        .logout {
-            background-color: #dc3545;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-            display: inline-block;
-            margin-top: 20px;
-        }
-
-        .logout:hover {
-            background-color: #c82333;
-        }
-    </style>
+    <link href="/assets/css/edit_client.css" rel="stylesheet">
     <script>
         let inactivityTime = function () {
             let time;
@@ -183,7 +90,7 @@ try {
             // Функция для выхода (переход на profile.php)
             function logout() {
                 releaseChange(); // Освобождаем изменение перед выходом
-                window.location.href = 'profile.php';
+                window.location.href = '../profile.php';
             }
 
             // Сброс таймера неактивности

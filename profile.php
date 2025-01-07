@@ -12,118 +12,9 @@ if (!$_SESSION['user']) {
 <head>
     <meta charset="UTF-8">
     <title>Авторизация и регистрация</title>
-    <link rel="stylesheet" href="assets/css/profile.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        header {
-            background-color: #007BFF;
-            color: white;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        header div {
-            text-align: right;
-        }
-
-        header p {
-            margin: 5px 0;
-            font-size: 14px;
-        }
-
-        .logout {
-            background-color: #dc3545;
-            color: white;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s;
-        }
-
-        .logout:hover {
-            background-color: #c82333;
-        }
-
-        main {
-            padding: 20px;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 20px;
-        }
-
-        table,
-        th,
-        td {
-            border: 1px solid #ddd;
-        }
-
-        th,
-        td {
-            padding: 12px;
-            text-align: left;
-        }
-
-        th {
-            background-color: #007BFF;
-            color: white;
-        }
-
-        tr:nth-child(even) {
-            background-color: #f9f9f9;
-        }
-
-        tr:hover {
-            background-color: #f1f1f1;
-        }
-
-        button {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-
-        button:hover {
-            background-color: #218838;
-        }
-
-        textarea {
-            width: 100%;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ddd;
-            margin-bottom: 10px;
-        }
-
-        .form-container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/profile.css">
 </head>
 
 <body>
@@ -211,7 +102,7 @@ GROUP BY
                     echo "<h2>Список клиентов, у которых уже есть поездка:</h2>";
                     echo "Список клиентов, кому нужны изменения:";
                     echo "<table border='1'>";
-                    echo "<tr><th>ID</th><th>login</th><th>Имя</th><th>Телефон</th><th>Требуется ли изменение?</th></tr>";
+                    echo "<tr><th>ID</th><th>login</th><th>Имя</th><th>Телефон</th><th>Требуется ли изменение?</th><th>Информация о поездке</th></tr>";
 
                     foreach ($clientsWithChanges as $row) {
                         echo "<tr>";
@@ -219,7 +110,8 @@ GROUP BY
                         echo "<td>" . htmlspecialchars($row['login']) . "</td>";
                         echo "<td>" . htmlspecialchars($row['name']) . "</td>";
                         echo "<td>" . htmlspecialchars($row['phone']) . "</td>";
-                        echo "<td><a href='edit_client.php?id=" . htmlspecialchars($row['id']) . "'><button>Редактировать</button></a></td>";
+                        echo "<td><a href='manager_php_scripts/edit_client.php?id=" . htmlspecialchars($row['id']) . "'><button>Редактировать</button></a></td>";
+                        echo "<td><a href='manager_php_scripts/watch_trip_info.php?id=" . htmlspecialchars($row['id']) . "'><button>Посмотреть</button></a></td>";
                         echo "</tr>";
                     }
                     echo "</table>";
@@ -227,7 +119,7 @@ GROUP BY
                     // Вывод клиентов, которым не нужны изменения
                     echo "Список клиентов, кому не нужны изменения:";
                     echo "<table border='1'>";
-                    echo "<tr><th>ID</th><th>login</th><th>Имя</th><th>Телефон</th></tr>";
+                    echo "<tr><th>ID</th><th>login</th><th>Имя</th><th>Телефон</th><th>Информация о поездке</th></tr>";
 
                     foreach ($clientsWithoutChanges as $row) {
                         echo "<tr>";
@@ -235,6 +127,7 @@ GROUP BY
                         echo "<td>" . htmlspecialchars($row['login']) . "</td>";
                         echo "<td>" . htmlspecialchars($row['name']) . "</td>";
                         echo "<td>" . htmlspecialchars($row['phone']) . "</td>";
+                        echo "<td><a href='manager_php_scripts/watch_trip_info.php?id=" . htmlspecialchars($row['id']) . "'><button>Посмотреть</button></a></td>";
                         echo "</tr>";
                     }
                     echo "</table>";
@@ -256,7 +149,7 @@ GROUP BY
                         echo "<td>" . $row['login'] . "</td>";
                         echo "<td>" . $row['name'] . "</td>";
                         echo "<td>" . $row['phone'] . "</td>";
-                        echo "<td><a href='create_trip.php?id=" . $row['id'] . "'><button>Добавить поездку</button></a></td>";
+                        echo "<td><a href='/manager_php_scripts/create_trip.php?id=" . $row['id'] . "'><button>Добавить поездку</button></a></td>";
                         echo "</tr>";
                     }
 

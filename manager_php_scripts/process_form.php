@@ -1,14 +1,10 @@
 <?php
-require_once "vendor/connect.php";
+require_once "../vendor/connect.php";
 session_start();
 if (!$_SESSION['user']) {
     header('Location: /');
     exit();
 }
-?>
-
-<?php
-require_once "vendor/connect.php";
 
 function updateTrip($conn, $change_id, $start_date, $end_date, $description, $need_visa, $need_transfer, $need_culture_program, $cancelled, $cost, $hotel_id, $trip_id)
 {

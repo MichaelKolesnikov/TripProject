@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once "vendor/connect.php";
+require_once "../vendor/connect.php";
 
 header('Content-Type: application/json');
 
