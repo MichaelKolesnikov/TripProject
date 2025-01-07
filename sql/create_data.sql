@@ -21,7 +21,9 @@ INSERT INTO `User` (login, password, name, phone, role_id) VALUES
 ('first_manager', MD5('a'), 'Михаил Колесников', '79100000011', 2),
 ('second_manager', MD5('b'), 'Евгений Кондаков', '79100000012', 2);
 
-INSERT INTO `Trip` (id, start_date, end_date, description, need_visa, need_transfer, need_culture_program, cancelled, cost, hotel_id) VALUES
+INSERT INTO `Trip` 
+(id, start_date, end_date, description, need_visa, need_transfer, need_culture_program, cancelled, cost, hotel_id) 
+VALUES
 (1, '2023-10-01', '2023-10-10', 'Поездка в Сочи', FALSE, TRUE, TRUE, FALSE, 50000.00, 2),
 (2, '2023-11-05', '2023-11-15', 'Поездка в Санкт-Петербург', FALSE, FALSE, TRUE, FALSE, 45000.00, 3),
 (3, '2023-12-01', '2023-12-10', 'Поездка в Красную Поляну', FALSE, TRUE, FALSE, FALSE, 60000.00, 4),
