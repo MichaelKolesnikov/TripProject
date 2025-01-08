@@ -4,6 +4,7 @@ session_start();
 if (!$_SESSION['user']) {
     header('Location: /');
 }
+
 ?>
 
 <!doctype html>
@@ -33,12 +34,32 @@ if (!$_SESSION['user']) {
         <div class="form-container">
             <?php
             if ($_SESSION['user']['role_id'] == 1) {
+                $inactive = 20;
+                if (isset($_SESSION['timeout'])) {
+                    $session_life = time() - $_SESSION['timeout'];
+                    if ($session_life > $inactive) {
+                        session_unset();
+                        session_destroy();
+                        session_start();
+
+                        $_SESSION['message'] = "Время бездействия истекло. Пожалуйста, войдите снова.";
+                        $_SESSION['timeout'] = time();
+
+                        header("Location: /");
+                    }
+                }
+                $_SESSION['timeout'] = time();
+
                 $user_id = $_SESSION['user']['id'];
                 $query = "SELECT Trip.*, Hotel.name, Hotel.country, Hotel.city, Hotel.street FROM Trip JOIN Hotel ON hotel_id=Hotel.id WHERE Trip.id='$user_id'";
                 $result = mysqli_query($connect, $query);
                 if (mysqli_num_rows($result) == 0) {
                     echo "Вы еще не зарегистрировали поездку. Позвоните по данному номеру телефона: +7(888)-888-88-88, чтобы обговорить желаемую поездку. После через некоторое время вы сможете ее увидеть в своем личном кабинете.";
                 } else {
+                    if (isset($_SESSION['message'])) {
+                        echo "<div style='color: blue;'>" . $_SESSION['message'] . "</div>"; // Выводим сообщение
+                        unset($_SESSION['message']); // Удаляем сообщение из сессии, чтобы оно не отображалось повторно
+                    }
                     echo "Информация о Вашей поездке:";
                     $row = mysqli_fetch_assoc($result);
                     echo "<p>ID поездки: " . $row['id'] . "</p>";
@@ -64,6 +85,10 @@ if (!$_SESSION['user']) {
                     }
                 }
             } else {
+                if (isset($_SESSION['message'])) {
+                    echo "<div style='color: blue;'>" . $_SESSION['message'] . "</div>"; // Выводим сообщение
+                    unset($_SESSION['message']); // Удаляем сообщение из сессии, чтобы оно не отображалось повторно
+                }
                 $query = "
 SELECT 
     User.id, 

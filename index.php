@@ -33,6 +33,12 @@ if ($_SESSION['user']) {
                 У вас нет аккаунта? - <a href="/register.php">зарегистрируйтесь</a>!
             </p>
             <p class="msg none">Lorem ipsum dolor sit amet.</p>
+            <?php
+            if (isset($_SESSION['message'])) {
+                echo "<div class=msg>" . $_SESSION['message'] . "</div>"; // Выводим сообщение
+                unset($_SESSION['message']); // Удаляем сообщение из сессии, чтобы оно не отображалось повторно
+            }
+            ?>
         </form>
     </div>
 

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.12)  8 JAN 2025 00:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.12)  8 JAN 2025 16:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/user_name/TripProject/report/report.tex
-(/home/user_name/TripProject/report/report.tex
+**/home/user_name/TripProject/report/latex/report.tex
+(/home/user_name/TripProject/report/latex/report.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -389,24 +389,72 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
 )
 \Hy@SectionHShift=\skip49
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count274
+\LTcapwidth=\dimen154
+\LT@head=\box50
+\LT@firsthead=\box51
+\LT@foot=\box52
+\LT@lastfoot=\box53
+\LT@gbox=\box54
+\LT@cols=\count275
+\LT@rows=\count276
+\c@LT@tables=\count277
+\c@LT@chunks=\count278
+\LT@p@ftn=\toks20
+) (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count279
+\multirow@dima=\skip55
+\bigstrutjot=\dimen155
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen156
+\ar@mcellbox=\box55
+\extrarowheight=\dimen157
+\NC@list=\toks21
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box56
+)
+\TX@col@width=\dimen158
+\TX@old@table=\dimen159
+\TX@old@col=\dimen160
+\TX@target=\dimen161
+\TX@delta=\dimen162
+\TX@cols=\count280
+\TX@ftn=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen163
+\c@nlinenum=\count281
+\TeXr@lab=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count274
-\lst@gtempboxa=\box50
-\lst@token=\toks20
-\lst@length=\count275
-\lst@currlwidth=\dimen154
-\lst@column=\count276
-\lst@pos=\count277
-\lst@lostspace=\dimen155
-\lst@width=\dimen156
-\lst@newlines=\count278
-\lst@lineno=\count279
-\lst@maxwidth=\dimen157
+\lst@mode=\count282
+\lst@gtempboxa=\box57
+\lst@token=\toks24
+\lst@length=\count283
+\lst@currlwidth=\dimen164
+\lst@column=\count284
+\lst@pos=\count285
+\lst@lostspace=\dimen165
+\lst@width=\dimen166
+\lst@newlines=\count286
+\lst@lineno=\count287
+\lst@maxwidth=\dimen167
  (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count280
-\lst@skipnumbers=\count281
-\lst@framebox=\box51
+\c@lstnumber=\count288
+\lst@skipnumbers=\count289
+\lst@framebox=\box58
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
@@ -431,62 +479,93 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 112.
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-)) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count290
+\calc@Bcount=\count291
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
+\calc@Askip=\skip58
+\calc@Bskip=\skip59
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count292
+\calc@Cskip=\skip60
+) (/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen170
+\ESO@tempdimb=\dimen171
+)
+\AM@pagewidth=\dimen172
+\AM@pageheight=\dimen173
+\AM@fboxrule=\dimen174
+ (/usr/share/texlive/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count293
+\AM@pagebox=\box59
+\AM@global@opts=\toks25
+\AM@pagecnt=\count294
+\AM@toc@title=\toks26
+\c@AM@survey=\count295
+\AM@templatesizebox=\box60
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count282
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box61
 ) (./report.aux
+
+LaTeX Warning: Label `lst:sql-example' multiply defined.
+
 
 LaTeX Warning: Label `lst:sql-example' multiply defined.
 
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Info: Redefining \th on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
+LaTeX Font Info:    ... okay on input line 108.
+LaTeX Info: Redefining \th on input line 108.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
-\scratchdimen=\dimen158
-\scratchbox=\box53
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count286
-\MPscratchDim=\dimen159
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count297
+\scratchdimen=\dimen175
+\scratchbox=\box62
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen176
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
- (/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
@@ -524,7 +603,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 108.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -532,159 +611,484 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count289
+\c@section@level=\count303
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 108.
+LaTeX Info: Redefining \pageref on input line 108.
+LaTeX Info: Redefining \nameref on input line 108.
  (./report.out) (./report.out)
 \@outlinefile=\write3
 \openout3 = `report.out'.
 
-\c@lstlisting=\count290
- [1
+\c@lstlisting=\count304
+ (/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<media/ER.jpg, id=58, 1233.60875pt x 816.04875pt>
-File: media/ER.jpg Graphic file (type jpg)
-<use media/ER.jpg>
-Package pdftex.def Info: media/ER.jpg  used on input line 123.
+pdfTeX warning: pdflatex (file ./titul.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./titul.pdf, id=68, 597.4822pt x 845.1575pt>
+File: ./titul.pdf Graphic file (type pdf)
+<use ./titul.pdf>
+Package pdftex.def Info: ./titul.pdf  used on input line 109.
+(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./titul.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: ./titul.pdf Graphic file (type pdf)
+<use ./titul.pdf>
+Package pdftex.def Info: ./titul.pdf  used on input line 109.
+(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+
+
+pdfTeX warning: pdflatex (file ./titul.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+
+pdfTeX warning: pdflatex (file ./titul.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./titul.pdf, id=71, page=1, 597.4822pt x 845.1575pt>
+File: ./titul.pdf Graphic file (type pdf)
+<use ./titul.pdf, page 1>
+Package pdftex.def Info: ./titul.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.48073pt x 845.15544pt.
+File: ./titul.pdf Graphic file (type pdf)
+<use ./titul.pdf, page 1>
+Package pdftex.def Info: ./titul.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: ./titul.pdf Graphic file (type pdf)
+<use ./titul.pdf, page 1>
+Package pdftex.def Info: ./titul.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: ./titul.pdf Graphic file (type pdf)
+<use ./titul.pdf, page 1>
+Package pdftex.def Info: ./titul.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
+File: ./titul.pdf Graphic file (type pdf)
+<use ./titul.pdf, page 1>
+Package pdftex.def Info: ./titul.pdf , page1 used on input line 109.
+(pdftex.def)             Requested size: 597.50807pt x 845.19412pt.
+[1
+
+ <./titul.pdf>]
+<media/models/ER.jpg, id=121, 1233.60875pt x 816.04875pt>
+File: media/models/ER.jpg Graphic file (type jpg)
+<use media/models/ER.jpg>
+Package pdftex.def Info: media/models/ER.jpg  used on input line 133.
 (pdftex.def)             Requested size: 452.9679pt x 299.64217pt.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 123--124
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 133--134
 [][] 
  []
 
-<media/f_model.png, id=59, 584.1825pt x 804.00375pt>
-File: media/f_model.png Graphic file (type png)
-<use media/f_model.png>
-Package pdftex.def Info: media/f_model.png  used on input line 129.
+<media/models/f_model.png, id=122, 584.1825pt x 804.00375pt>
+File: media/models/f_model.png Graphic file (type png)
+<use media/models/f_model.png>
+Package pdftex.def Info: media/models/f_model.png  used on input line 139.
 (pdftex.def)             Requested size: 350.97572pt x 483.30154pt.
-[2 <./media/ER.jpg>]
-<media/alg_model.jpg, id=69, 614.295pt x 794.97pt>
-File: media/alg_model.jpg Graphic file (type jpg)
-<use media/alg_model.jpg>
-Package pdftex.def Info: media/alg_model.jpg  used on input line 139.
+[2{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./media/models/ER.jpg>]
+<media/models/alg_model.jpg, id=133, 614.295pt x 794.97pt>
+File: media/models/alg_model.jpg Graphic file (type jpg)
+<use media/models/alg_model.jpg>
+Package pdftex.def Info: media/models/alg_model.jpg  used on input line 149.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 139--140
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 149--150
 [][] 
  []
 
-[3 <./media/f_model.png>] [4 <./media/alg_model.jpg>]
-<media/base_model.png, id=80, 1117.17375pt x 836.12375pt>
-File: media/base_model.png Graphic file (type png)
-<use media/base_model.png>
-Package pdftex.def Info: media/base_model.png  used on input line 145.
+[3 <./media/models/f_model.png>] [4 <./media/models/alg_model.jpg>]
+<media/models/base_model.png, id=144, 1117.17375pt x 836.12375pt>
+File: media/models/base_model.png Graphic file (type png)
+<use media/models/base_model.png>
+Package pdftex.def Info: media/models/base_model.png  used on input line 155.
 (pdftex.def)             Requested size: 434.36638pt x 325.21939pt.
 
-Overfull \hbox (10.77318pt too wide) in paragraph at lines 145--146
+Overfull \hbox (10.77318pt too wide) in paragraph at lines 155--156
 [][] 
  []
 
-<media/files_description.png, id=81, 179.67125pt x 247.92625pt>
+<media/files_description.png, id=145, 179.67125pt x 247.92625pt>
 File: media/files_description.png Graphic file (type png)
 <use media/files_description.png>
-Package pdftex.def Info: media/files_description.png  used on input line 154.
+Package pdftex.def Info: media/files_description.png  used on input line 164.
 (pdftex.def)             Requested size: 167.49826pt x 231.11378pt.
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 159.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 169.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [5 <./media/base_model.png> <./media/files_description.png>] [6] [7] [8] [9]
-<media/login.png, id=204, 1052.93375pt x 477.785pt>
-File: media/login.png Graphic file (type png)
-<use media/login.png>
-Package pdftex.def Info: media/login.png  used on input line 347.
+) [5 <./media/models/base_model.png> <./media/files_description.png>] [6] [7] [8] [9]
+<media/unregistered/login.png, id=268, 1052.93375pt x 477.785pt>
+File: media/unregistered/login.png Graphic file (type png)
+<use media/unregistered/login.png>
+Package pdftex.def Info: media/unregistered/login.png  used on input line 357.
 (pdftex.def)             Requested size: 452.44743pt x 205.51645pt.
 
-Overfull \hbox (28.85423pt too wide) in paragraph at lines 347--348
+Overfull \hbox (28.85423pt too wide) in paragraph at lines 357--358
 [][] 
  []
 
-<media/reg.png, id=205, 1058.95625pt x 728.7225pt>
-File: media/reg.png Graphic file (type png)
-<use media/reg.png>
-Package pdftex.def Info: media/reg.png  used on input line 351.
+<media/unregistered/reg.png, id=269, 1058.95625pt x 728.7225pt>
+File: media/unregistered/reg.png Graphic file (type png)
+<use media/unregistered/reg.png>
+Package pdftex.def Info: media/unregistered/reg.png  used on input line 361.
 (pdftex.def)             Requested size: 452.4338pt x 311.65442pt.
 
-Overfull \hbox (28.8406pt too wide) in paragraph at lines 351--352
+Overfull \hbox (28.8406pt too wide) in paragraph at lines 361--362
 [][] 
  []
 
-[10 <./media/login.png>]
-<media/client_with.png, id=214, 1057.9525pt x 788.9475pt>
-File: media/client_with.png Graphic file (type png)
-<use media/client_with.png>
-Package pdftex.def Info: media/client_with.png  used on input line 355.
+[10 <./media/unregistered/login.png>]
+<media/client/client_with.png, id=279, 1057.9525pt x 788.9475pt>
+File: media/client/client_with.png Graphic file (type png)
+<use media/client/client_with.png>
+Package pdftex.def Info: media/client/client_with.png  used on input line 365.
 (pdftex.def)             Requested size: 452.44083pt x 337.25447pt.
 
-Overfull \hbox (28.84763pt too wide) in paragraph at lines 355--356
+Overfull \hbox (28.84763pt too wide) in paragraph at lines 365--366
 [][] 
  []
 
-<media/client_without.png, id=215, 625.33624pt x 251.94125pt>
-File: media/client_without.png Graphic file (type png)
-<use media/client_without.png>
-Package pdftex.def Info: media/client_without.png  used on input line 357.
+<media/client/client_without.png, id=280, 625.33624pt x 251.94125pt>
+File: media/client/client_without.png Graphic file (type png)
+<use media/client/client_without.png>
+Package pdftex.def Info: media/client/client_without.png  used on input line 367.
 (pdftex.def)             Requested size: 452.45546pt x 182.1818pt.
 
-Overfull \hbox (28.86226pt too wide) in paragraph at lines 357--358
+Overfull \hbox (28.86226pt too wide) in paragraph at lines 367--368
 [][] 
  []
 
-[11 <./media/reg.png> <./media/client_with.png>]
-<media/manager1.png, id=222, 1896.08376pt x 973.6375pt>
-File: media/manager1.png Graphic file (type png)
-<use media/manager1.png>
-Package pdftex.def Info: media/manager1.png  used on input line 361.
+[11 <./media/unregistered/reg.png> <./media/client/client_with.png>]
+<media/manager/manager1.png, id=287, 1896.08376pt x 973.6375pt>
+File: media/manager/manager1.png Graphic file (type png)
+<use media/manager/manager1.png>
+Package pdftex.def Info: media/manager/manager1.png  used on input line 371.
 (pdftex.def)             Requested size: 452.4366pt x 232.60811pt.
 
-Overfull \hbox (28.8434pt too wide) in paragraph at lines 361--362
+Overfull \hbox (28.8434pt too wide) in paragraph at lines 371--372
 [][] 
  []
 
-<media/manager2.png, id=223, 1899.095pt x 983.675pt>
-File: media/manager2.png Graphic file (type png)
-<use media/manager2.png>
-Package pdftex.def Info: media/manager2.png  used on input line 363.
+<media/manager/manager2.png, id=288, 1899.095pt x 983.675pt>
+File: media/manager/manager2.png Graphic file (type png)
+<use media/manager/manager2.png>
+Package pdftex.def Info: media/manager/manager2.png  used on input line 373.
 (pdftex.def)             Requested size: 452.4307pt x 234.12056pt.
 
-Overfull \hbox (28.8375pt too wide) in paragraph at lines 363--364
+Overfull \hbox (28.8375pt too wide) in paragraph at lines 373--374
 [][] 
  []
 
-[12 <./media/client_without.png> <./media/manager1.png> <./media/manager2.png>]
-<media/edit_trip.png, id=231, 711.65875pt x 979.66pt>
-File: media/edit_trip.png Graphic file (type png)
-<use media/edit_trip.png>
-Package pdftex.def Info: media/edit_trip.png  used on input line 367.
+[12 <./media/client/client_without.png> <./media/manager/manager1.png> <./media/manager/manager2.png>]
+<media/manager/edit_trip.png, id=296, 711.65875pt x 979.66pt>
+File: media/manager/edit_trip.png Graphic file (type png)
+<use media/manager/edit_trip.png>
+Package pdftex.def Info: media/manager/edit_trip.png  used on input line 377.
 (pdftex.def)             Requested size: 328.97414pt x 452.42793pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 379.
+(Font)              <12> on input line 389.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 379.
+(Font)              <8> on input line 389.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 379.
- [13 <./media/edit_trip.png>] [14] (./report.aux)
+(Font)              <6> on input line 389.
+ [13 <./media/manager/edit_trip.png>]
+<media/unregistered/login_check.png, id=305, 480.79625pt x 517.935pt>
+File: media/unregistered/login_check.png Graphic file (type png)
+<use media/unregistered/login_check.png>
+Package pdftex.def Info: media/unregistered/login_check.png  used on input line 416.
+(pdftex.def)             Requested size: 240.39752pt x 258.96686pt.
+<media/unregistered/login_wrong_data.png, id=306, 480.79625pt x 517.935pt>
+File: media/unregistered/login_wrong_data.png Graphic file (type png)
+<use media/unregistered/login_wrong_data.png>
+Package pdftex.def Info: media/unregistered/login_wrong_data.png  used on input line 417.
+(pdftex.def)             Requested size: 240.39752pt x 258.96686pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--418
+
+ []
+
+[14 <./media/unregistered/login_check.png>]
+<media/unregistered/reg_pass.png, id=314, 439.6425pt x 619.31375pt>
+File: media/unregistered/reg_pass.png Graphic file (type png)
+<use media/unregistered/reg_pass.png>
+Package pdftex.def Info: media/unregistered/reg_pass.png  used on input line 420.
+(pdftex.def)             Requested size: 219.82071pt x 309.65611pt.
+<media/unregistered/reg_check.png, id=315, 439.6425pt x 619.31375pt>
+File: media/unregistered/reg_check.png Graphic file (type png)
+<use media/unregistered/reg_check.png>
+Package pdftex.def Info: media/unregistered/reg_check.png  used on input line 421.
+(pdftex.def)             Requested size: 219.82071pt x 309.65611pt.
+<media/unregistered/reg_exists.png, id=316, 439.6425pt x 619.31375pt>
+File: media/unregistered/reg_exists.png Graphic file (type png)
+<use media/unregistered/reg_exists.png>
+Package pdftex.def Info: media/unregistered/reg_exists.png  used on input line 422.
+(pdftex.def)             Requested size: 219.82071pt x 309.65611pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--423
+
+ []
+
+[15 <./media/unregistered/login_wrong_data.png> <./media/unregistered/reg_pass.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+
+ []
+
+[16 <./media/unregistered/reg_check.png> <./media/unregistered/reg_exists.png>]
+<media/client/success_change.png, id=330, 933.4875pt x 610.28pt>
+File: media/client/success_change.png Graphic file (type png)
+<use media/client/success_change.png>
+Package pdftex.def Info: media/client/success_change.png  used on input line 429.
+(pdftex.def)             Requested size: 466.74261pt x 305.13925pt.
+<media/client/change_after_reload.png, id=331, 933.4875pt x 610.28pt>
+File: media/client/change_after_reload.png Graphic file (type png)
+<use media/client/change_after_reload.png>
+Package pdftex.def Info: media/client/change_after_reload.png  used on input line 430.
+(pdftex.def)             Requested size: 466.74261pt x 305.13925pt.
+
+Overfull \hbox (43.14941pt too wide) in paragraph at lines 428--431
+[] 
+ []
+
+
+Overfull \hbox (43.14941pt too wide) in paragraph at lines 428--431
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--431
+
+ []
+
+[17 <./media/client/success_change.png>]
+<media/client/break.png, id=339, 933.4875pt x 610.28pt>
+File: media/client/break.png Graphic file (type png)
+<use media/client/break.png>
+Package pdftex.def Info: media/client/break.png  used on input line 432.
+(pdftex.def)             Requested size: 466.74261pt x 305.13925pt.
+
+Overfull \hbox (43.14941pt too wide) in paragraph at lines 431--433
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--433
+
+ []
+
+
+Overfull \hbox (102.67491pt too wide) in paragraph at lines 437--439
+[]\T2A/cmr/m/n/12 При успеш-ном про-хож-де-нии ав-то-ри-за-ции ме-не-джер по-па-да-ет на стра-ни-цу \T2A/cmtt/m/n/12 localhost/profile.php
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--439
+
+ []
+
+[18 <./media/client/change_after_reload.png> <./media/client/break.png>]
+<media/manager/watch.png, id=347, 921.4425pt x 933.4875pt>
+File: media/manager/watch.png Graphic file (type png)
+<use media/manager/watch.png>
+Package pdftex.def Info: media/manager/watch.png  used on input line 460.
+(pdftex.def)             Requested size: 460.72012pt x 466.74261pt.
+
+Overfull \hbox (37.12692pt too wide) in paragraph at lines 459--461
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 459--461
+
+ []
+
+[19]
+<media/manager/busy.png, id=372, 926.46124pt x 305.14pt>
+File: media/manager/busy.png Graphic file (type png)
+<use media/manager/busy.png>
+Package pdftex.def Info: media/manager/busy.png  used on input line 466.
+(pdftex.def)             Requested size: 463.22948pt x 152.56961pt.
+
+Overfull \hbox (39.63628pt too wide) in paragraph at lines 465--467
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 465--467
+
+ []
+
+[20 <./media/manager/watch.png>]
+<media/manager/done.png, id=382, 926.46124pt x 305.14pt>
+File: media/manager/done.png Graphic file (type png)
+<use media/manager/done.png>
+Package pdftex.def Info: media/manager/done.png  used on input line 468.
+(pdftex.def)             Requested size: 463.22948pt x 152.56961pt.
+
+Overfull \hbox (39.63628pt too wide) in paragraph at lines 467--469
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--469
+
+ []
+
+<media/manager/brake1.png, id=383, 1861.95625pt x 932.48375pt>
+File: media/manager/brake1.png Graphic file (type png)
+<use media/manager/brake1.png>
+Package pdftex.def Info: media/manager/brake1.png  used on input line 473.
+(pdftex.def)             Requested size: 372.38466pt x 186.49344pt.
+<media/manager/brake2.png, id=384, 922.44624pt x 731.73375pt>
+File: media/manager/brake2.png Graphic file (type png)
+<use media/manager/brake2.png>
+Package pdftex.def Info: media/manager/brake2.png  used on input line 474.
+(pdftex.def)             Requested size: 461.22198pt x 365.86598pt.
+
+Overfull \hbox (37.62878pt too wide) in paragraph at lines 471--475
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 471--475
+
+ []
+
+[21 <./media/manager/busy.png> <./media/manager/done.png> <./media/manager/brake1.png>]
+Underfull \hbox (badness 6526) in paragraph at lines 480--480
+[]|\T2A/cmr/bx/n/12 ќ п/п сце-
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 480--481
+[]|\T2A/cmr/bx/n/12 ќ стр. сце-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+\T2A/cmr/bx/n/12 на-рия или
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 480--481
+\T2A/cmr/bx/n/12 раз-де-лов по-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--481
+\T2A/cmr/bx/n/12 яс-ни-тель-ной
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 480--481
+\T2A/cmr/bx/n/12 за-пис-ки (для
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 480--481
+\T2A/cmr/bx/n/12 ѕХї во вто-
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 484--484
+[]|\T2A/cmr/bx/n/12 ќ п/п сце-
+ []
+
+
+Underfull \hbox (badness 4686) in paragraph at lines 484--485
+[]|\T2A/cmr/bx/n/12 ќ стр. сце-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+\T2A/cmr/bx/n/12 на-рия или
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 484--485
+\T2A/cmr/bx/n/12 раз-де-лов по-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 484--485
+\T2A/cmr/bx/n/12 яс-ни-тель-ной
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 484--485
+\T2A/cmr/bx/n/12 за-пис-ки (для
+ []
+
+
+Underfull \hbox (badness 2573) in paragraph at lines 484--485
+\T2A/cmr/bx/n/12 ѕХї во вто-
+ []
+
+
+Underfull \hbox (badness 4518) in paragraph at lines 496--496
+[]|\T2A/cmr/m/n/12 Процедурные/алгоритмические мо-
+ []
+
+
+Underfull \hbox (badness 6493) in paragraph at lines 506--506
+[]|\T2A/cmr/m/n/12 3. home-страницу с несколь-ки-ми
+ []
+
+
+Underfull \hbox (badness 4156) in paragraph at lines 506--506
+\T2A/cmr/m/n/12 пунк-та-ми ме-ню (мож-но обыч-ные
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 516--518
+\T2A/cmr/m/n/12 став-лен гра-фи-ком), как ми-ни-мум
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--536
+\T2A/cmr/m/n/12 несколь-ких cookie, со-хра-ня-е-мых
+ []
+
+
+Underfull \hbox (badness 2050) in paragraph at lines 534--536
+\T2A/cmr/m/n/12 со-дер-жать-ся ин-фор-ма-ция, ко-то-рая
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--536
+\T2A/cmr/m/n/12 пе-ре-да-ет-ся меж-ду раз-лич-ны-ми
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--536
+\T2A/cmr/m/n/12 се-ан-са-ми ра-бо-ты поль-зо-ва-те-ля
+ []
+
+
+Underfull \hbox (badness 4454) in paragraph at lines 540--541
+\T2A/cmr/m/n/12 вать ошиб-ки поль-зо-ва-те-ля (тест-
+ []
+
+[22 <./media/manager/brake2.png>] [23] [24] [25] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 7380460099719778AA014225EA62271F;3143.
+(rerunfilecheck)             Checksum: 33FE92888F8721CF4CBD88077794821B;3984.
  ) 
 Here is how much of TeX's memory you used:
- 13270 strings out of 479648
- 199099 string characters out of 5886114
- 982776 words of memory out of 5000000
- 30943 multiletter control sequences out of 15000+600000
+ 14705 strings out of 479648
+ 224164 string characters out of 5886114
+ 1003591 words of memory out of 5000000
+ 32278 multiletter control sequences out of 15000+600000
  479435 words of font info for 48 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 60i,6n,63p,1121b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1095.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk>
-Output written on report.pdf (14 pages, 1097016 bytes).
+ 60i,17n,64p,954b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1095.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk>
+Output written on report.pdf (25 pages, 1789967 bytes).
 PDF statistics:
- 642 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
- 129 named destinations out of 1000 (max. 500000)
- 157 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 856 PDF objects out of 1000 (max. 8388607)
+ 386 compressed objects within 4 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 274 words of extra memory for PDF output out of 10000 (max. 10000000)
 

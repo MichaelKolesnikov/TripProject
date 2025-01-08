@@ -14,6 +14,7 @@ mysqli_begin_transaction($connect);
 
 try {
     $stmt = $connect->prepare("SELECT * FROM `Change` WHERE `trip_id` = ? AND `done` = false FOR UPDATE");
+    // $stmt = $connect->prepare("SELECT * FROM `Change` WHERE `trip_id` = ? AND `done` = false");
     $stmt->bind_param("i", $clientId);
     $stmt->execute();
 
@@ -21,7 +22,8 @@ try {
 
     if ($result->num_rows == 0) {
         mysqli_rollback($connect);
-        echo "Изменение уже было применено или поездки уже не существует";
+        $_SESSION['message'] = "Изменение уже было применено или поездки уже не существует";
+        header('Location: ../');
         exit();
     }
 
@@ -29,9 +31,11 @@ try {
     $change_id = $change_row["id"];
 
     $manager_id = $_SESSION['user']['id'];
+    // это еще нужно закомментировать, чтобы все сломалось
     if ($change_row["manager_id"] != $manager_id && $change_row["manager_id"] != null) {
-        echo "Кто-то уже работает над данным изменением";
+        $_SESSION['message'] = "Кто-то уже работает над данным изменением";
         mysqli_rollback($connect);
+        header('Location: ../');
         exit();
     }
 
