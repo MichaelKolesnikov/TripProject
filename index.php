@@ -4,7 +4,7 @@ session_start();
 if ($_SESSION['user']) {
     header('Location: profile.php');
 }
-
+$login_value = isset($_COOKIE['user_login']) ? $_COOKIE['user_login'] : '';
 ?>
 
 <!doctype html>
@@ -25,7 +25,8 @@ if ($_SESSION['user']) {
     <div>
         <form class="login">
             <label>Логин</label>
-            <input type="text" name="login" placeholder="Введите свой логин">
+            <input type="text" name="login" placeholder="Введите свой логин"
+                value="<?php echo htmlspecialchars($login_value); ?>">
             <label>Пароль</label>
             <input type="password" name="password" placeholder="Введите пароль">
             <button type="submit" class="login-btn">Войти</button>

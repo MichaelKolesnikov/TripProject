@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.12)  8 JAN 2025 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.12)  8 JAN 2025 20:33
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -691,10 +691,10 @@ Package pdftex.def Info: media/models/f_model.png  used on input line 139.
 <media/models/alg_model.jpg, id=133, 614.295pt x 794.97pt>
 File: media/models/alg_model.jpg Graphic file (type jpg)
 <use media/models/alg_model.jpg>
-Package pdftex.def Info: media/models/alg_model.jpg  used on input line 149.
+Package pdftex.def Info: media/models/alg_model.jpg  used on input line 150.
 (pdftex.def)             Requested size: 452.9679pt x 586.19432pt.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 149--150
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 150--151
 [][] 
  []
 
@@ -702,39 +702,39 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 149--150
 <media/models/base_model.png, id=144, 1117.17375pt x 836.12375pt>
 File: media/models/base_model.png Graphic file (type png)
 <use media/models/base_model.png>
-Package pdftex.def Info: media/models/base_model.png  used on input line 155.
+Package pdftex.def Info: media/models/base_model.png  used on input line 159.
 (pdftex.def)             Requested size: 434.36638pt x 325.21939pt.
 
-Overfull \hbox (10.77318pt too wide) in paragraph at lines 155--156
+Overfull \hbox (10.77318pt too wide) in paragraph at lines 159--160
 [][] 
  []
 
 <media/files_description.png, id=145, 179.67125pt x 247.92625pt>
 File: media/files_description.png Graphic file (type png)
 <use media/files_description.png>
-Package pdftex.def Info: media/files_description.png  used on input line 164.
+Package pdftex.def Info: media/files_description.png  used on input line 168.
 (pdftex.def)             Requested size: 167.49826pt x 231.11378pt.
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 169.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 173.
 (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [5 <./media/models/base_model.png> <./media/files_description.png>] [6] [7] [8] [9]
 <media/unregistered/login.png, id=268, 1052.93375pt x 477.785pt>
 File: media/unregistered/login.png Graphic file (type png)
 <use media/unregistered/login.png>
-Package pdftex.def Info: media/unregistered/login.png  used on input line 357.
+Package pdftex.def Info: media/unregistered/login.png  used on input line 361.
 (pdftex.def)             Requested size: 452.44743pt x 205.51645pt.
 
-Overfull \hbox (28.85423pt too wide) in paragraph at lines 357--358
+Overfull \hbox (28.85423pt too wide) in paragraph at lines 361--362
 [][] 
  []
 
 <media/unregistered/reg.png, id=269, 1058.95625pt x 728.7225pt>
 File: media/unregistered/reg.png Graphic file (type png)
 <use media/unregistered/reg.png>
-Package pdftex.def Info: media/unregistered/reg.png  used on input line 361.
+Package pdftex.def Info: media/unregistered/reg.png  used on input line 365.
 (pdftex.def)             Requested size: 452.4338pt x 311.65442pt.
 
-Overfull \hbox (28.8406pt too wide) in paragraph at lines 361--362
+Overfull \hbox (28.8406pt too wide) in paragraph at lines 365--366
 [][] 
  []
 
@@ -742,20 +742,20 @@ Overfull \hbox (28.8406pt too wide) in paragraph at lines 361--362
 <media/client/client_with.png, id=279, 1057.9525pt x 788.9475pt>
 File: media/client/client_with.png Graphic file (type png)
 <use media/client/client_with.png>
-Package pdftex.def Info: media/client/client_with.png  used on input line 365.
+Package pdftex.def Info: media/client/client_with.png  used on input line 369.
 (pdftex.def)             Requested size: 452.44083pt x 337.25447pt.
 
-Overfull \hbox (28.84763pt too wide) in paragraph at lines 365--366
+Overfull \hbox (28.84763pt too wide) in paragraph at lines 369--370
 [][] 
  []
 
 <media/client/client_without.png, id=280, 625.33624pt x 251.94125pt>
 File: media/client/client_without.png Graphic file (type png)
 <use media/client/client_without.png>
-Package pdftex.def Info: media/client/client_without.png  used on input line 367.
+Package pdftex.def Info: media/client/client_without.png  used on input line 371.
 (pdftex.def)             Requested size: 452.45546pt x 182.1818pt.
 
-Overfull \hbox (28.86226pt too wide) in paragraph at lines 367--368
+Overfull \hbox (28.86226pt too wide) in paragraph at lines 371--372
 [][] 
  []
 
@@ -763,20 +763,20 @@ Overfull \hbox (28.86226pt too wide) in paragraph at lines 367--368
 <media/manager/manager1.png, id=287, 1896.08376pt x 973.6375pt>
 File: media/manager/manager1.png Graphic file (type png)
 <use media/manager/manager1.png>
-Package pdftex.def Info: media/manager/manager1.png  used on input line 371.
+Package pdftex.def Info: media/manager/manager1.png  used on input line 375.
 (pdftex.def)             Requested size: 452.4366pt x 232.60811pt.
 
-Overfull \hbox (28.8434pt too wide) in paragraph at lines 371--372
+Overfull \hbox (28.8434pt too wide) in paragraph at lines 375--376
 [][] 
  []
 
 <media/manager/manager2.png, id=288, 1899.095pt x 983.675pt>
 File: media/manager/manager2.png Graphic file (type png)
 <use media/manager/manager2.png>
-Package pdftex.def Info: media/manager/manager2.png  used on input line 373.
+Package pdftex.def Info: media/manager/manager2.png  used on input line 377.
 (pdftex.def)             Requested size: 452.4307pt x 234.12056pt.
 
-Overfull \hbox (28.8375pt too wide) in paragraph at lines 373--374
+Overfull \hbox (28.8375pt too wide) in paragraph at lines 377--378
 [][] 
  []
 
@@ -784,27 +784,27 @@ Overfull \hbox (28.8375pt too wide) in paragraph at lines 373--374
 <media/manager/edit_trip.png, id=296, 711.65875pt x 979.66pt>
 File: media/manager/edit_trip.png Graphic file (type png)
 <use media/manager/edit_trip.png>
-Package pdftex.def Info: media/manager/edit_trip.png  used on input line 377.
+Package pdftex.def Info: media/manager/edit_trip.png  used on input line 381.
 (pdftex.def)             Requested size: 328.97414pt x 452.42793pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 389.
+(Font)              <12> on input line 393.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 389.
+(Font)              <8> on input line 393.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 389.
+(Font)              <6> on input line 393.
  [13 <./media/manager/edit_trip.png>]
 <media/unregistered/login_check.png, id=305, 480.79625pt x 517.935pt>
 File: media/unregistered/login_check.png Graphic file (type png)
 <use media/unregistered/login_check.png>
-Package pdftex.def Info: media/unregistered/login_check.png  used on input line 416.
+Package pdftex.def Info: media/unregistered/login_check.png  used on input line 420.
 (pdftex.def)             Requested size: 240.39752pt x 258.96686pt.
 <media/unregistered/login_wrong_data.png, id=306, 480.79625pt x 517.935pt>
 File: media/unregistered/login_wrong_data.png Graphic file (type png)
 <use media/unregistered/login_wrong_data.png>
-Package pdftex.def Info: media/unregistered/login_wrong_data.png  used on input line 417.
+Package pdftex.def Info: media/unregistered/login_wrong_data.png  used on input line 421.
 (pdftex.def)             Requested size: 240.39752pt x 258.96686pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 413--418
+Underfull \hbox (badness 10000) in paragraph at lines 417--422
 
  []
 
@@ -812,25 +812,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--418
 <media/unregistered/reg_pass.png, id=314, 439.6425pt x 619.31375pt>
 File: media/unregistered/reg_pass.png Graphic file (type png)
 <use media/unregistered/reg_pass.png>
-Package pdftex.def Info: media/unregistered/reg_pass.png  used on input line 420.
+Package pdftex.def Info: media/unregistered/reg_pass.png  used on input line 424.
 (pdftex.def)             Requested size: 219.82071pt x 309.65611pt.
 <media/unregistered/reg_check.png, id=315, 439.6425pt x 619.31375pt>
 File: media/unregistered/reg_check.png Graphic file (type png)
 <use media/unregistered/reg_check.png>
-Package pdftex.def Info: media/unregistered/reg_check.png  used on input line 421.
+Package pdftex.def Info: media/unregistered/reg_check.png  used on input line 425.
 (pdftex.def)             Requested size: 219.82071pt x 309.65611pt.
 <media/unregistered/reg_exists.png, id=316, 439.6425pt x 619.31375pt>
 File: media/unregistered/reg_exists.png Graphic file (type png)
 <use media/unregistered/reg_exists.png>
-Package pdftex.def Info: media/unregistered/reg_exists.png  used on input line 422.
+Package pdftex.def Info: media/unregistered/reg_exists.png  used on input line 426.
 (pdftex.def)             Requested size: 219.82071pt x 309.65611pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 418--423
+Underfull \hbox (badness 10000) in paragraph at lines 422--427
 
  []
 
 [15 <./media/unregistered/login_wrong_data.png> <./media/unregistered/reg_pass.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
@@ -838,234 +838,234 @@ Underfull \hbox (badness 10000) in paragraph at lines 427--428
 <media/client/success_change.png, id=330, 933.4875pt x 610.28pt>
 File: media/client/success_change.png Graphic file (type png)
 <use media/client/success_change.png>
-Package pdftex.def Info: media/client/success_change.png  used on input line 429.
+Package pdftex.def Info: media/client/success_change.png  used on input line 433.
 (pdftex.def)             Requested size: 466.74261pt x 305.13925pt.
 <media/client/change_after_reload.png, id=331, 933.4875pt x 610.28pt>
 File: media/client/change_after_reload.png Graphic file (type png)
 <use media/client/change_after_reload.png>
-Package pdftex.def Info: media/client/change_after_reload.png  used on input line 430.
-(pdftex.def)             Requested size: 466.74261pt x 305.13925pt.
+Package pdftex.def Info: media/client/change_after_reload.png  used on input line 434.
+(pdftex.def)             Requested size: 280.04842pt x 183.0854pt.
 
-Overfull \hbox (43.14941pt too wide) in paragraph at lines 428--431
+Overfull \hbox (43.14941pt too wide) in paragraph at lines 432--435
 [] 
  []
 
 
-Overfull \hbox (43.14941pt too wide) in paragraph at lines 428--431
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 428--431
+Underfull \hbox (badness 10000) in paragraph at lines 432--435
 
  []
 
-[17 <./media/client/success_change.png>]
-<media/client/break.png, id=339, 933.4875pt x 610.28pt>
+<media/client/break.png, id=332, 933.4875pt x 610.28pt>
 File: media/client/break.png Graphic file (type png)
 <use media/client/break.png>
-Package pdftex.def Info: media/client/break.png  used on input line 432.
+Package pdftex.def Info: media/client/break.png  used on input line 436.
 (pdftex.def)             Requested size: 466.74261pt x 305.13925pt.
 
-Overfull \hbox (43.14941pt too wide) in paragraph at lines 431--433
+Overfull \hbox (43.14941pt too wide) in paragraph at lines 435--437
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--433
+Underfull \hbox (badness 10000) in paragraph at lines 435--437
+
+ []
+
+[17 <./media/client/success_change.png> <./media/client/change_after_reload.png>]
+<media/client/end_session.png, id=342, 906.38625pt x 630.355pt>
+File: media/client/end_session.png Graphic file (type png)
+<use media/client/end_session.png>
+Package pdftex.def Info: media/client/end_session.png  used on input line 439.
+(pdftex.def)             Requested size: 271.91797pt x 189.10796pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--440
 
  []
 
 
-Overfull \hbox (102.67491pt too wide) in paragraph at lines 437--439
-[]\T2A/cmr/m/n/12 При успеш-ном про-хож-де-нии ав-то-ри-за-ции ме-не-джер по-па-да-ет на стра-ни-цу \T2A/cmtt/m/n/12 localhost/profile.php
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 437--439
+Underfull \hbox (badness 10000) in paragraph at lines 446--449
 
  []
 
-[18 <./media/client/change_after_reload.png> <./media/client/break.png>]
-<media/manager/watch.png, id=347, 921.4425pt x 933.4875pt>
+[18 <./media/client/break.png> <./media/client/end_session.png>]
+<media/manager/watch.png, id=351, 921.4425pt x 933.4875pt>
 File: media/manager/watch.png Graphic file (type png)
 <use media/manager/watch.png>
-Package pdftex.def Info: media/manager/watch.png  used on input line 460.
+Package pdftex.def Info: media/manager/watch.png  used on input line 470.
 (pdftex.def)             Requested size: 460.72012pt x 466.74261pt.
 
-Overfull \hbox (37.12692pt too wide) in paragraph at lines 459--461
+Overfull \hbox (37.12692pt too wide) in paragraph at lines 469--471
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--461
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 
  []
 
 [19]
-<media/manager/busy.png, id=372, 926.46124pt x 305.14pt>
+<media/manager/busy.png, id=376, 926.46124pt x 305.14pt>
 File: media/manager/busy.png Graphic file (type png)
 <use media/manager/busy.png>
-Package pdftex.def Info: media/manager/busy.png  used on input line 466.
+Package pdftex.def Info: media/manager/busy.png  used on input line 476.
 (pdftex.def)             Requested size: 463.22948pt x 152.56961pt.
 
-Overfull \hbox (39.63628pt too wide) in paragraph at lines 465--467
+Overfull \hbox (39.63628pt too wide) in paragraph at lines 475--477
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 465--467
+Underfull \hbox (badness 10000) in paragraph at lines 475--477
 
  []
 
 [20 <./media/manager/watch.png>]
-<media/manager/done.png, id=382, 926.46124pt x 305.14pt>
+<media/manager/done.png, id=386, 926.46124pt x 305.14pt>
 File: media/manager/done.png Graphic file (type png)
 <use media/manager/done.png>
-Package pdftex.def Info: media/manager/done.png  used on input line 468.
+Package pdftex.def Info: media/manager/done.png  used on input line 478.
 (pdftex.def)             Requested size: 463.22948pt x 152.56961pt.
 
-Overfull \hbox (39.63628pt too wide) in paragraph at lines 467--469
+Overfull \hbox (39.63628pt too wide) in paragraph at lines 477--479
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 467--469
+Underfull \hbox (badness 10000) in paragraph at lines 477--479
 
  []
 
-<media/manager/brake1.png, id=383, 1861.95625pt x 932.48375pt>
+<media/manager/brake1.png, id=387, 1861.95625pt x 932.48375pt>
 File: media/manager/brake1.png Graphic file (type png)
 <use media/manager/brake1.png>
-Package pdftex.def Info: media/manager/brake1.png  used on input line 473.
+Package pdftex.def Info: media/manager/brake1.png  used on input line 483.
 (pdftex.def)             Requested size: 372.38466pt x 186.49344pt.
-<media/manager/brake2.png, id=384, 922.44624pt x 731.73375pt>
+<media/manager/brake2.png, id=388, 922.44624pt x 731.73375pt>
 File: media/manager/brake2.png Graphic file (type png)
 <use media/manager/brake2.png>
-Package pdftex.def Info: media/manager/brake2.png  used on input line 474.
+Package pdftex.def Info: media/manager/brake2.png  used on input line 484.
 (pdftex.def)             Requested size: 461.22198pt x 365.86598pt.
 
-Overfull \hbox (37.62878pt too wide) in paragraph at lines 471--475
+Overfull \hbox (37.62878pt too wide) in paragraph at lines 481--485
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 471--475
+Underfull \hbox (badness 10000) in paragraph at lines 481--485
 
  []
 
 [21 <./media/manager/busy.png> <./media/manager/done.png> <./media/manager/brake1.png>]
-Underfull \hbox (badness 6526) in paragraph at lines 480--480
+Underfull \hbox (badness 6526) in paragraph at lines 490--490
 []|\T2A/cmr/bx/n/12 ќ п/п сце-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 480--481
+Underfull \hbox (badness 4686) in paragraph at lines 490--491
 []|\T2A/cmr/bx/n/12 ќ стр. сце-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
 \T2A/cmr/bx/n/12 на-рия или
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 480--481
+Underfull \hbox (badness 3557) in paragraph at lines 490--491
 \T2A/cmr/bx/n/12 раз-де-лов по-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
 \T2A/cmr/bx/n/12 яс-ни-тель-ной
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 480--481
+Underfull \hbox (badness 1052) in paragraph at lines 490--491
 \T2A/cmr/bx/n/12 за-пис-ки (для
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 480--481
+Underfull \hbox (badness 2573) in paragraph at lines 490--491
 \T2A/cmr/bx/n/12 ѕХї во вто-
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 484--484
+Underfull \hbox (badness 6526) in paragraph at lines 494--494
 []|\T2A/cmr/bx/n/12 ќ п/п сце-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 484--485
+Underfull \hbox (badness 4686) in paragraph at lines 494--495
 []|\T2A/cmr/bx/n/12 ќ стр. сце-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 \T2A/cmr/bx/n/12 на-рия или
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 484--485
+Underfull \hbox (badness 3557) in paragraph at lines 494--495
 \T2A/cmr/bx/n/12 раз-де-лов по-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 484--485
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
 \T2A/cmr/bx/n/12 яс-ни-тель-ной
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 484--485
+Underfull \hbox (badness 1052) in paragraph at lines 494--495
 \T2A/cmr/bx/n/12 за-пис-ки (для
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 484--485
+Underfull \hbox (badness 2573) in paragraph at lines 494--495
 \T2A/cmr/bx/n/12 ѕХї во вто-
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 496--496
+Underfull \hbox (badness 4518) in paragraph at lines 506--506
 []|\T2A/cmr/m/n/12 Процедурные/алгоритмические мо-
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 506--506
+Underfull \hbox (badness 6493) in paragraph at lines 516--516
 []|\T2A/cmr/m/n/12 3. home-страницу с несколь-ки-ми
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 506--506
+Underfull \hbox (badness 4156) in paragraph at lines 516--516
 \T2A/cmr/m/n/12 пунк-та-ми ме-ню (мож-но обыч-ные
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 516--518
+Underfull \hbox (badness 2753) in paragraph at lines 526--528
 \T2A/cmr/m/n/12 став-лен гра-фи-ком), как ми-ни-мум
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--536
+Underfull \hbox (badness 10000) in paragraph at lines 544--546
 \T2A/cmr/m/n/12 несколь-ких cookie, со-хра-ня-е-мых
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 534--536
+Underfull \hbox (badness 2050) in paragraph at lines 544--546
 \T2A/cmr/m/n/12 со-дер-жать-ся ин-фор-ма-ция, ко-то-рая
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--536
+Underfull \hbox (badness 10000) in paragraph at lines 544--546
 \T2A/cmr/m/n/12 пе-ре-да-ет-ся меж-ду раз-лич-ны-ми
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--536
+Underfull \hbox (badness 10000) in paragraph at lines 544--546
 \T2A/cmr/m/n/12 се-ан-са-ми ра-бо-ты поль-зо-ва-те-ля
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 540--541
+Underfull \hbox (badness 4454) in paragraph at lines 550--551
 \T2A/cmr/m/n/12 вать ошиб-ки поль-зо-ва-те-ля (тест-
  []
 
@@ -1077,18 +1077,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 33FE92888F8721CF4CBD88077794821B;3984.
  ) 
 Here is how much of TeX's memory you used:
- 14705 strings out of 479648
- 224164 string characters out of 5886114
+ 14714 strings out of 479648
+ 224392 string characters out of 5886114
  1003591 words of memory out of 5000000
- 32278 multiletter control sequences out of 15000+600000
+ 32284 multiletter control sequences out of 15000+600000
  479435 words of font info for 48 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
- 60i,17n,64p,954b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,17n,64p,743b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1095.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk>
-Output written on report.pdf (25 pages, 1789967 bytes).
+Output written on report.pdf (25 pages, 1813393 bytes).
 PDF statistics:
- 856 PDF objects out of 1000 (max. 8388607)
- 386 compressed objects within 4 object streams
- 173 named destinations out of 1000 (max. 500000)
- 274 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 861 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 

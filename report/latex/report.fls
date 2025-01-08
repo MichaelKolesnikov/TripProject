@@ -832,6 +832,11 @@ INPUT ./media/client/break.png
 INPUT media/client/break.png
 INPUT ./media/client/break.png
 INPUT ./media/client/break.png
+INPUT ./media/client/end_session.png
+INPUT ./media/client/end_session.png
+INPUT media/client/end_session.png
+INPUT ./media/client/end_session.png
+INPUT ./media/client/end_session.png
 INPUT ./media/manager/watch.png
 INPUT ./media/manager/watch.png
 INPUT media/manager/watch.png
