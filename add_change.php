@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $trip_id = $_POST['trip_id'];
     $description = $_POST['description'];
 
-    $stmt = $connect->prepare("SELECT * FROM `Change` WHERE trip_id=?");
+    $stmt = $connect->prepare("SELECT * FROM `Change` WHERE trip_id=? AND done=false;");
     $stmt->bind_param("i", $trip_id);
     $stmt->execute();
     $result = $stmt->get_result();

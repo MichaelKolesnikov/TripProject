@@ -34,7 +34,7 @@ if (!$_SESSION['user']) {
         <div class="form-container">
             <?php
             if ($_SESSION['user']['role_id'] == 1) {
-                $inactive = 10;
+                $inactive = 1000000;
                 if (isset($_SESSION['user']['timeout'])) {
                     $session_life = time() - $_SESSION['user']['timeout'];
                     if ($session_life > $inactive) {

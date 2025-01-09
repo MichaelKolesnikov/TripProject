@@ -17,6 +17,7 @@ try {
     // $stmt = $connect->prepare("SELECT * FROM `Change` WHERE `trip_id` = ? AND `done` = false");
     $stmt->bind_param("i", $clientId);
     $stmt->execute();
+    // sleep(2); // это еще нужно разкомментировать, чтобы все сломалось
 
     $result = $stmt->get_result();
 
@@ -31,7 +32,6 @@ try {
     $change_id = $change_row["id"];
 
     $manager_id = $_SESSION['user']['id'];
-    // это еще нужно закомментировать, чтобы все сломалось
     if ($change_row["manager_id"] != $manager_id && $change_row["manager_id"] != null) {
         $_SESSION['message'] = "Кто-то уже работает над данным изменением";
         mysqli_rollback($connect);
