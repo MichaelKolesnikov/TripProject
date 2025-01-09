@@ -23,7 +23,7 @@ try {
     if ($result->num_rows == 0) {
         mysqli_rollback($connect);
         $_SESSION['message'] = "Изменение уже было применено или поездки уже не существует";
-        header('Location: ../');
+        header('Location: ../profile.php');
         exit();
     }
 
@@ -35,7 +35,7 @@ try {
     if ($change_row["manager_id"] != $manager_id && $change_row["manager_id"] != null) {
         $_SESSION['message'] = "Кто-то уже работает над данным изменением";
         mysqli_rollback($connect);
-        header('Location: ../');
+        header('Location: ../profile.php');
         exit();
     }
 

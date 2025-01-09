@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.12)  8 JAN 2025 20:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.12.12)  9 JAN 2025 09:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -871,11 +871,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 435--437
  []
 
 [17 <./media/client/success_change.png> <./media/client/change_after_reload.png>]
-<media/client/end_session.png, id=342, 906.38625pt x 630.355pt>
+<media/client/end_session.png, id=342, 924.45375pt x 598.235pt>
 File: media/client/end_session.png Graphic file (type png)
 <use media/client/end_session.png>
 Package pdftex.def Info: media/client/end_session.png  used on input line 439.
-(pdftex.def)             Requested size: 271.91797pt x 189.10796pt.
+(pdftex.def)             Requested size: 277.33826pt x 179.47188pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 437--440
 
@@ -955,121 +955,137 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--485
  []
 
 [21 <./media/manager/busy.png> <./media/manager/done.png> <./media/manager/brake1.png>]
-Underfull \hbox (badness 6526) in paragraph at lines 490--490
+<media/manager/already_has_trip.png, id=399, 912.40875pt x 451.6875pt>
+File: media/manager/already_has_trip.png Graphic file (type png)
+<use media/manager/already_has_trip.png>
+Package pdftex.def Info: media/manager/already_has_trip.png  used on input line 487.
+(pdftex.def)             Requested size: 456.20326pt x 225.84319pt.
+
+Overfull \hbox (32.61006pt too wide) in paragraph at lines 485--488
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 485--488
+
+ []
+
+
+Underfull \hbox (badness 6526) in paragraph at lines 493--493
 []|\T2A/cmr/bx/n/12 ќ п/п сце-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 490--491
+Underfull \hbox (badness 4686) in paragraph at lines 493--494
 []|\T2A/cmr/bx/n/12 ќ стр. сце-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
 \T2A/cmr/bx/n/12 на-рия или
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 490--491
+Underfull \hbox (badness 3557) in paragraph at lines 493--494
 \T2A/cmr/bx/n/12 раз-де-лов по-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
+Underfull \hbox (badness 10000) in paragraph at lines 493--494
 \T2A/cmr/bx/n/12 яс-ни-тель-ной
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 490--491
+Underfull \hbox (badness 1052) in paragraph at lines 493--494
 \T2A/cmr/bx/n/12 за-пис-ки (для
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 490--491
+Underfull \hbox (badness 2573) in paragraph at lines 493--494
 \T2A/cmr/bx/n/12 ѕХї во вто-
  []
 
 
-Underfull \hbox (badness 6526) in paragraph at lines 494--494
+Underfull \hbox (badness 6526) in paragraph at lines 497--497
 []|\T2A/cmr/bx/n/12 ќ п/п сце-
  []
 
 
-Underfull \hbox (badness 4686) in paragraph at lines 494--495
+Underfull \hbox (badness 4686) in paragraph at lines 497--498
 []|\T2A/cmr/bx/n/12 ќ стр. сце-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 \T2A/cmr/bx/n/12 на-рия или
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 494--495
+Underfull \hbox (badness 3557) in paragraph at lines 497--498
 \T2A/cmr/bx/n/12 раз-де-лов по-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 494--495
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 \T2A/cmr/bx/n/12 яс-ни-тель-ной
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 494--495
+Underfull \hbox (badness 1052) in paragraph at lines 497--498
 \T2A/cmr/bx/n/12 за-пис-ки (для
  []
 
 
-Underfull \hbox (badness 2573) in paragraph at lines 494--495
+Underfull \hbox (badness 2573) in paragraph at lines 497--498
 \T2A/cmr/bx/n/12 ѕХї во вто-
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 506--506
+Underfull \hbox (badness 4518) in paragraph at lines 509--509
 []|\T2A/cmr/m/n/12 Процедурные/алгоритмические мо-
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 516--516
+Underfull \hbox (badness 6493) in paragraph at lines 519--519
 []|\T2A/cmr/m/n/12 3. home-страницу с несколь-ки-ми
  []
 
 
-Underfull \hbox (badness 4156) in paragraph at lines 516--516
+Underfull \hbox (badness 4156) in paragraph at lines 519--519
 \T2A/cmr/m/n/12 пунк-та-ми ме-ню (мож-но обыч-ные
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 526--528
+Underfull \hbox (badness 2753) in paragraph at lines 529--531
 \T2A/cmr/m/n/12 став-лен гра-фи-ком), как ми-ни-мум
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--546
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 \T2A/cmr/m/n/12 несколь-ких cookie, со-хра-ня-е-мых
  []
 
 
-Underfull \hbox (badness 2050) in paragraph at lines 544--546
+Underfull \hbox (badness 2050) in paragraph at lines 547--549
 \T2A/cmr/m/n/12 со-дер-жать-ся ин-фор-ма-ция, ко-то-рая
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--546
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 \T2A/cmr/m/n/12 пе-ре-да-ет-ся меж-ду раз-лич-ны-ми
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 544--546
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 \T2A/cmr/m/n/12 се-ан-са-ми ра-бо-ты поль-зо-ва-те-ля
  []
 
 
-Underfull \hbox (badness 4454) in paragraph at lines 550--551
+Underfull \hbox (badness 4454) in paragraph at lines 553--554
 \T2A/cmr/m/n/12 вать ошиб-ки поль-зо-ва-те-ля (тест-
  []
 
-[22 <./media/manager/brake2.png>] [23] [24] [25] (./report.aux)
+[22 <./media/manager/brake2.png> <./media/manager/already_has_trip.png>] [23] [24] [25] (./report.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1077,18 +1093,18 @@ Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 33FE92888F8721CF4CBD88077794821B;3984.
  ) 
 Here is how much of TeX's memory you used:
- 14714 strings out of 479648
- 224392 string characters out of 5886114
+ 14722 strings out of 479648
+ 224654 string characters out of 5886114
  1003591 words of memory out of 5000000
- 32284 multiletter control sequences out of 15000+600000
+ 32290 multiletter control sequences out of 15000+600000
  479435 words of font info for 48 fonts, out of 8000000 for 9000
  475 hyphenation exceptions out of 8191
  60i,17n,64p,743b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1095.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/latt1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk>
-Output written on report.pdf (25 pages, 1813393 bytes).
+Output written on report.pdf (25 pages, 1852824 bytes).
 PDF statistics:
- 861 PDF objects out of 1000 (max. 8388607)
- 389 compressed objects within 4 object streams
- 175 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 864 PDF objects out of 1000 (max. 8388607)
+ 390 compressed objects within 4 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 284 words of extra memory for PDF output out of 10000 (max. 10000000)
 

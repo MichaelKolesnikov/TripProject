@@ -862,6 +862,11 @@ INPUT ./media/manager/brake2.png
 INPUT media/manager/brake2.png
 INPUT ./media/manager/brake2.png
 INPUT ./media/manager/brake2.png
+INPUT ./media/manager/already_has_trip.png
+INPUT ./media/manager/already_has_trip.png
+INPUT media/manager/already_has_trip.png
+INPUT ./media/manager/already_has_trip.png
+INPUT ./media/manager/already_has_trip.png
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out

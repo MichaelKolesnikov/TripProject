@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1736357587 "/home/user_name/TripProject/report/latex/report.tex" "report.pdf" "report" 1736357589
+["pdflatex"] 1736403382 "/home/user_name/TripProject/report/latex/report.tex" "report.pdf" "report" 1736403384
   "/etc/texmf/web2c/texmf.cnf" 1733863156 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk" 1736282594 14040 6cdb5a252ae8f688ec5f5b1014a2468f ""
   "/home/user_name/.texlive2021/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk" 1734023428 29452 66575ee93d18a8fac7124e7b8d5a4c89 ""
@@ -19,7 +19,7 @@
   "/home/user_name/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1736282592 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
   "/home/user_name/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/latt1095.tfm" 1736284867 1276 e8f51803ab84b07f08acd5c6da2228c8 ""
   "/home/user_name/.texlive2021/texmf-var/fonts/tfm/lh/lh-t2a/latt1200.tfm" 1736282594 1272 bf3bb5cc29880b269c8bcb412a1ac6e2 ""
-  "/home/user_name/TripProject/report/latex/report.tex" 1736357587 41856 0e6f31d0f42258f9e45e19f92cbd0bb1 ""
+  "/home/user_name/TripProject/report/latex/report.tex" 1736403382 42235 b5b853ffb52bddacc2b1a12d96babf0d ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -110,9 +110,10 @@
   "media/client/change_after_reload.png" 1736337024 64512 566cf8e1061e3bbd0b96686fafd464fe ""
   "media/client/client_with.png" 1736279999 78239 e84115a3fcc811c0185762191e66b8de ""
   "media/client/client_without.png" 1736280073 36597 fe54444a657b26bff315b5bd242926b9 ""
-  "media/client/end_session.png" 1736348221 31000 b3693c563b9facdd439cea87508b1a70 ""
+  "media/client/end_session.png" 1736403313 29891 598cc7116dab2d9b0cfb79893609a302 ""
   "media/client/success_change.png" 1736337016 67265 da5752d25b9adf01ae4274a7f1d7a3a7 ""
   "media/files_description.png" 1736269582 10815 646684475c4826dabb47494869f08722 ""
+  "media/manager/already_has_trip.png" 1736402526 57502 5961aa57c5b265dca234c2d78b1c0abf ""
   "media/manager/brake1.png" 1736342394 197815 04c488e8c06d3220bc9abc6a9123b05e ""
   "media/manager/brake2.png" 1736342545 77055 15868819137c985a86622fc70b0db46c ""
   "media/manager/busy.png" 1736340280 35600 49d462e3a60265f735e448e890b6aabf ""
@@ -132,9 +133,9 @@
   "media/unregistered/reg_check.png" 1736333597 30992 33e97d2066e5e87dd453da59f134e8c2 ""
   "media/unregistered/reg_exists.png" 1736333586 29257 16d11dfc3dfe58a9a5d883a95eb179cd ""
   "media/unregistered/reg_pass.png" 1736333613 24295 0584504d08c63085578ae15f78f7ff01 ""
-  "report.aux" 1736357589 3499 521869dece5c40e87aa0d4c281cb9ed8 "pdflatex"
-  "report.out" 1736357589 3984 33fe92888f8721cf4cbd88077794821b "pdflatex"
-  "report.tex" 1736357587 41856 0e6f31d0f42258f9e45e19f92cbd0bb1 ""
+  "report.aux" 1736403383 3499 face0960192daba6c22222f208ff7b87 "pdflatex"
+  "report.out" 1736403383 3984 33fe92888f8721cf4cbd88077794821b "pdflatex"
+  "report.tex" 1736403382 42235 b5b853ffb52bddacc2b1a12d96babf0d ""
   "titul.pdf" 1736343203 149582 d5cf61e804aa3a783fd30a200a5618bb ""
   (generated)
   "report.aux"
