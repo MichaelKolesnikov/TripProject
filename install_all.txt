@@ -1,0 +1,89 @@
+# https://github.com/microsoft/winget-cli/releases
+
+winget install 7zip.7zip -h --accept-package-agreements
+winget install --id VideoLAN.VLC -e --source winget -h --accept-package-agreements --accept-source-agreements 
+
+winget install --id Google.Chrome --source winget -h --accept-package-agreements --accept-source-agreements
+winget install --id Brave.Brave -e --source winget -h --accept-package-agreements --accept-source-agreements
+
+
+winget install --id Git.Git -e --source winget -h --accept-package-agreements --accept-source-agreements 
+winget install --id Microsoft.VisualStudioCode --source winget -h --accept-package-agreements --accept-source-agreements 
+winget install --id JetBrains.PyCharm.Community -e --source winget -h --accept-package-agreements --accept-source-agreements
+winget install --id MiKTeX.MiKTeX -e --source winget -h
+
+winget install --id Obsidian.Obsidian -e --source winget -h --accept-package-agreements --accept-source-agreements 
+
+
+winget install --id OBSProject.OBSStudio -e --source winget -h --accept-package-agreements --accept-source-agreements
+winget install --id StrawberryPerl.StrawberryPerl -e --source winget -h
+
+
+
+
+
+
+wsl --installSet-ExecutionPolicy RemoteSigned -Scope CurrentUser
+https://github.com/pyenv-win/pyenv-win
+Set-ExecutionPolicy Restricted -Scope CurrentUser
+
+
+// Uninstalling unusefull shit
+$appsToRemove = @(
+    # Успешно удаленные из вашего лога
+    "Microsoft.3DBuilder",
+    "Microsoft.BingWeather",
+    "Microsoft.GetHelp",
+    "Microsoft.Getstarted",
+    "Microsoft.Microsoft3DViewer",
+    "Microsoft.MicrosoftSolitaireCollection",
+    "Microsoft.MixedReality.Portal",
+    "Microsoft.Office.OneNote",
+    "Microsoft.People",
+    "Microsoft.SkypeApp",
+    "Microsoft.StorePurchaseApp",
+    "Microsoft.WindowsAlarms",
+    "Microsoft.WindowsCamera",
+    "microsoft.windowscommunicationsapps", # Mail & Calendar
+    "Microsoft.WindowsFeedbackHub",
+    "Microsoft.WindowsMaps",
+    "Microsoft.WindowsSoundRecorder",
+    "Microsoft.Xbox.TCUI",
+    "Microsoft.XboxApp",
+    "Microsoft.XboxGameOverlay",
+    "Microsoft.XboxGamingOverlay",
+    "Microsoft.XboxIdentityProvider",
+    "Microsoft.XboxSpeechToTextOverlay",
+    "Microsoft.YourPhone",
+    "Microsoft.ZuneMusic", # Groove Music
+    "Microsoft.ZuneVideo", # Films & TV
+    "Microsoft.WindowsCalculator",
+    "Microsoft.MicrosoftStickyNotes",
+    "Microsoft.Cortana"
+)
+
+foreach ($app in $appsToRemove) {
+    Write-Host "Удаление $app..."
+    Get-AppxPackage -Name $app -AllUsers | Remove-AppxPackage -ErrorAction SilentlyContinue
+    Get-AppxProvisionedPackage -Online | Where-Object DisplayName -Like $app | Remove-AppxProvisionedPackage -Online -ErrorAction SilentlyContinue
+}
+
+# Особые случаи:
+# 1. OneDrive требует дополнительных действий
+Write-Host "`nУдаление OneDrive..."
+Stop-Process -Name "OneDrive" -ErrorAction SilentlyContinue
+Start-Sleep -Seconds 2
+$onedrivePath = "$env:SystemRoot\SysWOW64\OneDriveSetup.exe"
+if (Test-Path $onedrivePath) {
+    & $onedrivePath /uninstall
+}
+Remove-Item "$env:LocalAppData\Microsoft\OneDrive" -Recurse -Force -ErrorAction SilentlyContinue
+Remove-Item "$env:ProgramData\Microsoft OneDrive" -Recurse -Force -ErrorAction SilentlyContinue
+
+# 2. Xbox Game Bar может потребовать дополнительной очистки
+Get-AppxPackage -Name "Microsoft.GamingApp" -AllUsers | Remove-AppxPackage
+
+Write-Host "`nГотово! Основные приложения удалены."
+Write-Host "Рекомендации:"
+Write-Host "- Для полного удаления Xbox компонентов используйте: winget uninstall 'Xbox'"
+Write-Host "- Для Office приложений лучше использовать официальный деинсталлятор"
